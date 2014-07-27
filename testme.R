@@ -23,7 +23,7 @@ cacheSolve(aincache)
 ## [2,]    1 -0.5
 
 # Update the matrix
-# aincache$set(matrix(data=3))
+aincache$set(matrix(data=3))
 
 # First hit should not be a cache hit because of change
 cacheSolve(aincache)
